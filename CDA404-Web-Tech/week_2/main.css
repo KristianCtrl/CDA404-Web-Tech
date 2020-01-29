@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section {
+    border: 5px solid rgb(19, 47, 170);
+    width: 20%;
+    padding: 1%;
+    float: left;
+    text-align: left;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #2E2E2E;
+
+}
+
+button {
+    background-color: rgb(19, 47, 170);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+h1, h2 {
+    text-align:left;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul {
+    width: 200px;
+    margin: 0 auto;
+}
