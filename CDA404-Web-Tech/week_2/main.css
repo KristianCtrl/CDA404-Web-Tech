@@ -2,49 +2,70 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: gray;
 }
 
 
 
 section {
-    width: 300px;
+    float: left;
+    width: 500px;
+    height: 300px;
     border:10px solid rgb(19, 47, 170); 
     padding: 50px;
     margin: 20px;
     color: white;
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    position: absolute;
+    
     
 }
 
 img {
     float: right;
-    width: 300px;
+    width: 600px;
+    height: 400px;
     border: 10px solid rgb(19, 47, 170); 
     padding: 0px;
-    margin: 0px;
+    margin: 20px;
+    display: block;
+    max-width: 1000px;
+    margin: auto;
     
     
   }
 
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 nav {
-    background-color: #2E2E2E;
+    background-color: black;
     color: white;
+    font-size: 17px;
 
 }
 
 button {
+    
     background-color: rgb(19, 47, 170);
     border: none;
     color: white;
     padding: 5px 10px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 35px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    display: block;
+    max-width: 300px;
+    margin: auto;
+
+
+
+
     
    
     
@@ -78,17 +99,33 @@ nav ul {
     color: white;
 }
 
-div {
-    background-color: #2E2E2E;
-}
 
- article {
-    width: 300px;
+
+ article  {
+    display: block;
+    width: 500px;
+    height: 300px;
     border:10px solid rgb(19, 47, 170); 
-    padding: 20px;
-    left: auto;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    max-width: 500px;
+    margin-left:left;
+    margin: 25%;
+  
+    
     
 
+}
+
+article img {
+border: 0px;
+max-width: 500px;
+margin: auto;
+height: 250px;
+
 
 
 }
+
+
