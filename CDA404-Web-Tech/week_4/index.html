@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+ <h1>Fill in my form</h1>
+
+ <form id="form" action="http://www.google.com" method="post">
+    <fieldset>
+        <legend>Contact Information</legend>
+     
+            <p><label for="name">Name*:</label> <input type="text" name="name" required></p>
+            <p><label for="number">Number*:</label> <input type="text" name="number" required></p>
+            <p><label for="email">Email*:</label> <input type="email" name="email" required></p>
+    </fieldset>
+
+
+    <fieldset> 
+        <legend>Questions</legend>
+        <p><label for="cars"> What year are you in*:</label>
+            <select id="cars" name="car">
+                <option value="" required>Select</option>
+                <option value="1">1</option>
+                <option value="2" >2</option>
+                <option value="4">4</option>
+              </select>
+              </p>
+            <label for="rating"> Which electronic device do you use?  </label>
+            <p><input type="checkbox" name="rating" value="computer"> Computer</p>
+            <p><input type="checkbox" name="rating" value="ebook"> Ebook reader </p>
+            <p><input type="checkbox" name="rating" value="phone"> Smart phone </p>
+            
+            <label for="rating">  How many hours a day do you spend using electronic devices?  </label>
+            <p><input type="radio" name="rating" value="1"> 1 Hours</p>
+            <p><input type="radio" name="rating" value="2"> 2 Hours </p>
+            <p><label  for="suggestion"> Any other comments </label></p>
+            <textarea name="suggestions" rows="5" cols="35"> </textarea>
+    </fieldset>
+   
+
+        
+
+        
+<p><input type="submit" value="Submit"></p>
+</form>
+
+</body>
+</html>
