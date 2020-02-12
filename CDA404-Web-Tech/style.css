@@ -1,0 +1,29 @@
+#form {
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+
+h1 {
+    text-align: center
+}
+
+
+#form fieldset {
+    border: 1px solid red;
+}
+
+
+#form legend {
+    text-align: center;
+    border: 1px sold green;
+    color: seagreen;
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+
+    
+
+
