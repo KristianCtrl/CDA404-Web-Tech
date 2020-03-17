@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <form action="http://google.com" id="contact-form" method="get">
+
+        <p><input type="text" name="name" id="name" placeholder="name" /></p>
+        <p id="nameRequiredError" class="error" style="display:none; color:red">
+          Name is required
+        </p>
+        <p><input type="email" name="email" id="email" placeholder="email" /></p>
+        <p id="emailRequiredError" class="error" style="display:none;color:red">
+          Email is required
+        </p>
+
+        <input type="submit" value="Press me" />
+    </form>
+
+</body>
+</html>
